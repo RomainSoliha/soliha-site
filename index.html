@@ -4,105 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SOLIHA - Accueil</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bleu-soliha: #005aa7;
-      --bleu-sombre: #003f74;
-      --gris-fond: #f4f6f8;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background-color: white;
-      color: #333;
-    }
-    header {
-      background-color: var(--bleu-soliha);
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header img {
-      height: 40px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-      margin: 0;
-      padding: 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .hero {
-      background: url('https://www.soliha.fr/sites/default/files/styles/1920x800/public/2022-02/AdobeStock_174151845.jpeg') center/cover no-repeat;
-      color: white;
-      padding: 6rem 2rem;
-      text-align: center;
-    }
-    .hero h2,
-    .hero p {
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .section {
-      padding: 4rem 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-      background-color: #fefefe;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    }
-    .section h2 {
-      text-align: center;
-      color: var(--bleu-soliha);
-      margin-bottom: 2rem;
-      font-size: 2rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .grid div {
-      background: var(--gris-fond);
-      padding: 1.8rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s ease;
-    }
-    .grid div:hover {
-      transform: translateY(-4px);
-    }
-    .grid h3 {
-      color: var(--bleu-soliha);
-    }
-    footer {
-      background-color: var(--bleu-sombre);
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.95rem;
-      margin-top: 4rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Logo SOLIHA">
+    <h1>SOLIHA</h1>
     <nav>
       <ul>
         <li><a href="index.html">Accueil</a></li>
@@ -113,35 +19,23 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Un habitat digne pour tous</h2>
-    <p>Avec SOLIHA, agissons pour un logement accessible, adapté et durable.</p>
-  </section>
-
-  <section class="section">
-    <h2>Nos engagements</h2>
-    <div class="grid">
-      <div>
-        <h3>Rénovation de l’habitat</h3>
-        <p>Accompagnement à la rénovation énergétique et à l’adaptation du logement.</p>
+  <main>
+    <section class="hero">
+      <h2>Bienvenue dans l’association SOLIHA</h2>
+      <p>SOLIHA a pour mission de favoriser l’accès et le maintien dans l’habitat des personnes défavorisées, fragiles et vulnérables.</p>
+    </section>
+    <section class="actions">
+      <h2>Nos actions</h2>
+      <div class="grid">
+        <div><h3>Logement adapté</h3><p>Adaptation des logements pour les personnes en perte d’autonomie.</p></div>
+        <div><h3>Accompagnement social</h3><p>Soutien personnalisé pour favoriser l’insertion par le logement.</p></div>
+        <div><h3>Intermédiation locative</h3><p>Accès au logement pour les personnes en difficulté.</p></div>
       </div>
-      <div>
-        <h3>Accompagnement social</h3>
-        <p>Pour prévenir les expulsions, favoriser l’insertion et sécuriser le parcours résidentiel.</p>
-      </div>
-      <div>
-        <h3>Solibail</h3>
-        <p>Un dispositif d’intermédiation locative qui sécurise les propriétaires et héberge les publics en difficulté.</p>
-      </div>
-      <div>
-        <h3>Lutte contre l’habitat indigne</h3>
-        <p>Détection, diagnostics et solutions concrètes pour les logements insalubres.</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 SOLIHA Seine-et-Marne - 82 avenue Thiers, 77000 Melun</p>
+    <p>&copy; 2025 SOLIHA. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
