@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soliha-site/static/css/main.102ef2e8.css",
+    "main.js": "/soliha-site/static/js/main.1ea543fb.js",
+    "index.html": "/soliha-site/index.html",
+    "main.102ef2e8.css.map": "/soliha-site/static/css/main.102ef2e8.css.map",
+    "main.1ea543fb.js.map": "/soliha-site/static/js/main.1ea543fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.102ef2e8.css",
+    "static/js/main.1ea543fb.js"
+  ]
+}
